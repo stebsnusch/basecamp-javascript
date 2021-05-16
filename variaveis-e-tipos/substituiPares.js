@@ -9,7 +9,7 @@ function substituiNumerosPares(array) {
 			console.log(`trocando ${array[i]} por 0...`);
 			array[i] = 0;
 		} else if (!naoZero(array[i])) {
-			console.log("Ops, você já vale 0!");
+			console.log('Ops, você já vale 0!');
 		}
 	}
 	console.log(array);

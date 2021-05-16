@@ -1,9 +1,9 @@
 // solução 1
 function verificaPalindromo(string) {
 	if (!string) return;
-	console.log(string === string.split("").reverse().join(""));
+	console.log(string === string.split('').reverse().join(''));
 }
-verificaPalindromo("cat");
+verificaPalindromo('cat');
 
 // solução 2
 
@@ -19,4 +19,4 @@ function varificaPalindromo2(string) {
 	return console.log(true);
 }
 
-varificaPalindromo2("asa");
+varificaPalindromo2('asa');
