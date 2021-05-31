@@ -14,3 +14,10 @@ O objetivo é que a função receba um array e retorne ele caso o seu tamanho co
   - Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo `RangeError`
 - Utilize a declaração `try...catch`
 - Filtre as chamadas de catch por cada tipo de erro utilizando o operador `instanceof`
+
+## Links Auxiliares
+
+- [Objeto Error](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error)
+- [instanceof](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/instanceof)
+- [typeof](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof)
+- [try...catch](https://pt.stackoverflow.com/questions/58536/para-que-servem-os-blocos-try-catch-e-quando-devem-ser-utilizados#:~:text=Bloco%20try%2Fcatch%20serve%20para,tratamento%20dos%20erros%20que%20aconteceram.)
