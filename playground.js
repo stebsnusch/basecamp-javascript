@@ -1,23 +1,19 @@
-function calculaIdade(anos) {
-	return `Daqui a ${anos} anos, ${this.nome} terá ${
-		this.idade + anos
-	} anos de idade.`;
+async function resolvePromise() {
+	const myPromise = new Promise((resolve, reject) => {
+		window.setTimeout(() => {
+			resolve('Resolvida');
+		}, 3000);
+	});
+
+	let result;
+
+	try {
+		result = await myPromise
+			.then((result) => result + ' passando pelo then')
+			.then((result) => result + ' e agora acabou!');
+	} catch (err) {
+		result = err.message;
+	}
+
+	return result;
 }
-
-const pessoa1 = {
-	nome: 'Maria',
-	idade: 30,
-};
-
-const pessoa2 = {
-	nome: 'Carla',
-	idade: 26,
-};
-
-const animal = {
-	nome: 'Fiona',
-	idade: 5,
-	raca: 'Pug',
-};
-
-console.log(calculaIdade.apply(pessoa1, [4]));
