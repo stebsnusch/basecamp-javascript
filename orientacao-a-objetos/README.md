@@ -4,6 +4,8 @@ Este repositório contém a atividade prática do Curso "Orientação a Objetos"
 
 ## Atividade: Conta Bancária
 
+Nesta atividade, vamos testar os conceitos de Orientação a Objetos simulando a criação de diversos tipos de contas bancárias e operações disponíveis em cada uma.
+
 1. Crie a classe `ContaBancaria`, que possui os parâmetros `agencia`, `numero`, `tipo` e `saldo`;
 2. Dentro de `ContaBancaria`, construa o getter e o setter de `saldo`;
 3. Dentro de `ContaBancaria`, crie os métodos `sacar` e `depositar`;
