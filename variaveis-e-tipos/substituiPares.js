@@ -15,4 +15,4 @@ function substituiNumerosPares(array) {
 	console.log(array);
 }
 
-substituiNumerosPares([2, 0, 3, 5]);
+substituiNumerosPares([]);

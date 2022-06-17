@@ -19,4 +19,4 @@ function varificaPalindromo2(string) {
 	return console.log(true);
 }
 
-varificaPalindromo2('asa');
+varificaPalindromo2('cool');
