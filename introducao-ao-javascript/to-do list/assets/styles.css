@@ -32,9 +32,18 @@ input[type="text"] {
   margin-top: 20px;
 }
 
+.task-container {
+  display: flex;
+  padding: 0;
+  margin: 5px;
+}
+
 .task-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4px;
+  border-bottom: 1px #ccc solid;
   margin-bottom: 10px;
 }
 
